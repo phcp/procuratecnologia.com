@@ -1,0 +1,93 @@
+body {
+	background: url(../images/bg_top.png) right repeat, url(../images/bg_top.png) top repeat, #006283;
+	background-size: 300px;
+	background-attachment: fixed;
+}
+
+#lines-header {
+	background: transparent;
+	text-align: center;
+}
+
+#lines-header .logo {
+	width: 60%;
+	margin: 5% 0;
+	max-width: 680px;
+	min-width: 300px;
+}
+
+@font-face {
+	font-family: 'GeosansLight';
+	src: url('../fonts/GeosansLight.ttf');
+	-webkit-font-smoothing: antialiased;
+	font-smooth: always;
+}
+
+h2, h3, h4 {
+	font-family: 'GeosansLight', 'Helvetica', arial, serif !important;
+	font-weight: bolder;
+	margin-top: 0px !important;
+}
+
+#about, #clients-and-support{
+	background: #FFF;
+	padding: 20px;
+}
+
+#services {
+	background: #F1F1F1;
+	padding: 20px;
+}
+
+#services .item {
+	width: 100%;
+	height: 120px;
+	background: #FFF;
+	margin-bottom: 5px;
+}
+
+#services .development {
+	background: #FFF url(../images/services/development.png) center no-repeat;
+	background-size: auto 70%;
+}
+
+#services .development:hover {
+	background: url(../images/services/development.png) center no-repeat, url(../images/bg_item.png) center repeat, #FFF;
+	background-size: auto 70%, auto 150%;
+}
+
+#services .mobile {
+	background: #FFF url(../images/services/mobile.png) center no-repeat;
+	background-size: auto 70%;
+}
+
+#services .mobile:hover {
+	background: url(../images/services/mobile.png) center no-repeat, url(../images/bg_item.png) center repeat, #FFF;
+	background-size: auto 70%, auto 150%;
+}
+
+#services .evita {
+	background: #FFF url(../images/services/evita.png) center no-repeat;
+	background-size: auto 70%;
+}
+
+#services .evita:hover {
+	background: url(../images/services/evita.png) center no-repeat, url(../images/bg_item.png) center repeat, #FFF;
+	background-size: auto 70%, auto 150%;
+}
+
+#clients img {
+	height: 60px;
+}
+
+#support img {
+	height: 50px;
+}
+
+footer {
+	background: transparent;
+	padding: 10px;
+	font-size: 12px;
+	color: #FFF;
+	text-align: center;
+}
