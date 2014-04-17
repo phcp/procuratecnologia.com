@@ -39,41 +39,29 @@ h2, h3, h4 {
 	padding: 20px;
 }
 
-#services .item {
+#services #mobile {
 	width: 100%;
-	height: 120px;
-	background: #FFF;
+	height: 150px;
 	margin-bottom: 5px;
-}
-
-#services .development {
-	background: #FFF url(../images/services/development.png) center no-repeat;
+	background: url(../images/services/mobile.png) center no-repeat, url(../images/bg_item.png) center repeat, #F1F1F1;
 	background-size: auto 70%;
 }
 
-#services .development:hover {
-	background: url(../images/services/development.png) center no-repeat, url(../images/bg_item.png) center repeat, #FFF;
-	background-size: auto 70%, auto 150%;
+#products {
+	background: #DDD;
 }
 
-#services .mobile {
-	background: #FFF url(../images/services/mobile.png) center no-repeat;
-	background-size: auto 70%;
+#products a {
+	text-decoration: none;
+	color: #333;
 }
 
-#services .mobile:hover {
-	background: url(../images/services/mobile.png) center no-repeat, url(../images/bg_item.png) center repeat, #FFF;
-	background-size: auto 70%, auto 150%;
-}
-
-#services .evita {
-	background: #FFF url(../images/services/evita.png) center no-repeat;
-	background-size: auto 70%;
-}
-
-#services .evita:hover {
-	background: url(../images/services/evita.png) center no-repeat, url(../images/bg_item.png) center repeat, #FFF;
-	background-size: auto 70%, auto 150%;
+#products #evita {
+	width: 100%;
+	height: 180px;
+	margin-bottom: 5px;
+	background: url(../images/evita/logo.png) center no-repeat, url(../images/evita/bg_item.png) center repeat, #DDD;
+	background-size: auto 70%, auto;
 }
 
 #clients img {
